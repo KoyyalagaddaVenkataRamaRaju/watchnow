@@ -1,0 +1,52 @@
+.cart-page {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .cart-header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .back-arrow {
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .ticket-details {
+    display: flex;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+  }
+  
+  .ticket-poster {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .ticket-info {
+    flex-grow: 1;
+  }
+  
+  .checkout-btn {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #00bfff;
+    color: white;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+  .checkout-btn:hover {
+    background-color: #008ac0;
+  }
+  

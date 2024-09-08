@@ -1,0 +1,23 @@
+.movies-list1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+  background-color: #f4f4f4;
+}
+
+.error-message {
+  color: #ff4d4f;
+  font-size: 1.2em;
+  text-align: center;
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+.no-movies-message {
+  text-align: center;
+  font-size: 1.2em;
+  color: #999;
+  margin: 20px 0;
+}

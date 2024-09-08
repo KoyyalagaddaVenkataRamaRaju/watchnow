@@ -1,0 +1,114 @@
+/* MovieForm.css */
+
+.movie-form-container {
+    width: 80%;
+    margin: 2rem auto;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    background-color: #f9f9f9;
+  }
+
+  .header1 {
+    width: 94%;
+    text-align: center;
+    margin-bottom: 40px;
+    height: 6px;
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Add box shadow to header as well */
+  }
+  
+  .movie-form-container h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+  
+  .movie-form-container form {
+    display: grid;
+    gap: 1.2rem;
+  }
+  
+  .movie-form-container label {
+    font-weight: 600;
+    color: #555;
+  }
+  
+  .movie-form-container input {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .movie-form-container button {
+    padding: 0.8rem 1.2rem;
+    background-color: #4CAF50;
+    margin-bottom: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  .movie-form-container button:hover {
+    background-color: #45a049;
+  }
+  
+  .movie-list-container {
+    margin-top: 2rem;
+  }
+  
+  .movie-list-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .movie-list-container li {
+    background-color: #f1f1f1;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .movie-list-container li p {
+    margin: 0;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .movie-list-container li button {
+    margin-left: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .movie-list-container li button:hover {
+    background-color: #007B9E;
+  }
+  
+  .movie-list-container li button.delete-btn {
+    background-color: #f44336;
+  }
+  
+  .movie-list-container li button.delete-btn:hover {
+    background-color: #d32f2f;
+  }
+  
